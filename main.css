@@ -1,37 +1,42 @@
 .page-title {
 	text-align: center;
-	color: aquamarine;
+	color: white;
 	rotation: 40;
+	font-size: 300%;
 }
 
 p {
-	color: blue;
+	color: black;
 	font-family: verdana;
 	font-size: 120%;
-	background-color: black;
+	background-color: white;
+	background: linear-gradient(0.25turn, transparent, Maroon 100%);
+
 }
 
 body {
-	background-color: gray;
+	background-image: url("pictures/hikePicOne.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
-nav {
-	font-size: 150%;
-}
 
-ul {
+.ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	background-color: white;
+	text-align: center;
 }
 
-li {
+.ul li {
+	display: inline;
 	float: left;
 }
 
-li a {
-	display: block;
+.ul li a {
+	display: inline-block;
 	text-align: center;
 	padding: 20px 30px;
 	text-decoration: none;
@@ -41,7 +46,19 @@ li a:hover {
 	background-color: red;
 }
 
+section {
+	background-color: blue;
+	background-size: 300px 100px;
+}
+
+aside {
+	background-color: green;
+}
+
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	color: lightblue;
 	background-color: yellow;
 }
