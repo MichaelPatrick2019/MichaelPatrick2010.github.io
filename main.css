@@ -1,4 +1,47 @@
 .page-title {
 	text-align: center;
-	color: #ffffff;
+	color: aquamarine;
+	rotation: 40;
+}
+
+p {
+	color: blue;
+	font-family: verdana;
+	font-size: 120%;
+	background-color: black;
+}
+
+body {
+	background-color: gray;
+}
+
+nav {
+	font-size: 150%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: red;
+}
+
+footer {
+	color: lightblue;
+	background-color: yellow;
 }
