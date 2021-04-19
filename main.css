@@ -43,7 +43,7 @@ body {
 }
 
 li a:hover {
-	background-image: url("pictures/Stones and Rocks.png");
+	background-image: url("pictures/rockTransparent.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
