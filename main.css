@@ -26,24 +26,31 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: white;
 	text-align: center;
 }
 
 .ul li {
 	display: inline;
-	float: left;
 }
 
 .ul li a {
 	display: inline-block;
 	text-align: center;
-	padding: 20px 30px;
+	padding: 20px 40px;
 	text-decoration: none;
+	color: white;
+	font-size: 150%;
 }
 
 li a:hover {
-	background-color: red;
+	background-image: url("pictures/Stones and Rocks.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+li a:active {
+	transform: translateY(2px);
 }
 
 section {
