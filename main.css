@@ -5,6 +5,12 @@
 	color: white;
 	font-size: 300%;
 	opacity: 0.8;
+	font-family: "Times New Roman";
+	
+	background: linear-gradient(0.25turn, transparent, black, transparent);
+	
+	animation-name: slide;
+	animation-duration: 3s;
 }
 
 .row {
@@ -12,6 +18,65 @@
 	margin: 50px 0;
 }
 
+@keyframes slide {
+	from {
+		margin-bottom: 0;
+	} to {
+		margin-bottom: 100;
+	}
+}
+
+.btn {
+	border: groove;
+	border-radius: 10px;
+	border-color: black;
+	transition: all 0.5s;
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.btn:hover {
+	background-color: transparent;
+}
+
+.btn span {
+	position: relative;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.btn span:after {
+	content: '\00bb';
+	color: white;
+	right: -20px;
+	transition: 0.5s;
+	position: absolute;
+	opacity: 0;
+	
+	background-color: transparent;
+}
+
+.btn:hover span {
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: transparent;
+	
+	background-image: url("pictures/trees.png");	
+	background-size: contain;
+	background-position: center;
+}
+
+.btn:hover span:after {
+	opacity: 0.5;
+	right: 0;
+	
+	animation-name: treegrow;
+	animation-duration: 3s;	
+}
 
 p {
 	color: white;
@@ -21,10 +86,12 @@ p {
 
 body {
 	background-image: url("pictures/hikePicOne.jpg");
-	background-position: center;
+	background-position: cnter;
+	background-color: gray;
 	background-size: cover;
 	margin: 0;
 	padding: 0;
+	background-repeat: no-repeat;
 }
 
 nav {
@@ -32,6 +99,8 @@ nav {
 	height: 30%;
 	display: block;
 }
+
+
 
 
 .ul {
