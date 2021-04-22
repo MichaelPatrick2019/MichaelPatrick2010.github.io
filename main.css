@@ -1,10 +1,17 @@
 .page-title {
 	text-align: center;
+	margin: 1em;
+	height: 2em;
 	color: white;
-	rotation: 40;
 	font-size: 300%;
 	opacity: 0.8;
 }
+
+.row {
+	height = 10em;
+	margin: 50px 0;
+}
+
 
 p {
 	color: white;
@@ -57,17 +64,4 @@ li a:hover {
 
 li a:active {
 	transform: translateY(2px);
-}
-
-.statement {
-	text-align: center;
-	font-size: 150%;
-}
-
-footer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: white;
-	opacity: 0.75;
 }
