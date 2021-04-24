@@ -79,6 +79,12 @@
 	animation-duration: 3s;	
 }
 
+img {
+	position:absolute;
+	top:10px;/*use what is needed to place the image where you want it inside the div*/
+	right:20px;/* use what is needed to place the image where you want it inside the div*/
+}
+
 p {
 	color: white;
 	font-family: verdana;
